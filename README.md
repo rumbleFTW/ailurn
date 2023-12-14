@@ -1,5 +1,7 @@
 # Ailurn: **_A new way to read Research papers!_**
 
+![Screenshot](https://github.com/rumbleFTW/ailurn/assets/85807431/53e11f20-c918-418e-a4d5-76e91d70e69e)
+
 ## Podcast from PDF Research Papers
 
 This Python project aims to create an AI-powered podcast generator that utilizes research papers in PDF format. Ailurn converts the text content of research papers into spoken words, allowing users to listen to research papers as podcasts.
@@ -18,45 +20,37 @@ To run the Ailurn locally, follow these steps:
 
    Make sure you have the following installed on your machine:
    i. Python 3.x
-   ii. Pip (Python package installer)
+   ii. PIP (Python package installer)
 
-2. Installation
+3. Installation
 
    i. Clone the repository:
 
    ```bash
-       git clone https://github.com/your-username/ai-podcaster.git
-       cd ai-podcaster
+       git clone https://github.com/rumbleFTW/ailurn.git
+       cd ailurn
    ```
+   Also create a .env file in ailurn/src/ and include GOOGLE_API_KEY=<YOUR_KEY_HERE>
 
-3. Create a virtual environment (optional but recommended):
+4. Create a virtual environment (optional but recommended):
 
    ```bash
    python -m venv venv
    source venv/bin/activate # On Windows: venv\Scripts\activate
    ```
 
-4. Install dependencies:
+5. Install dependencies:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-5. Run the application
+6. Run the application
 
    ```bash
    python app.py
    ```
 
-   Access the AI podcaster at in your web browser.
+   Access the application at in your web browser.
 
    Follow the on-screen instructions to choose a research paper and customize the podcast settings.
-
-#### Contributing
-
-If you would like to contribute to the project, please follow our contribution guidelines.
-License
-
-This project is licensed under the MIT License.
-
-Feel free to explore the AI podcaster and enjoy listening to research papers in a convenient podcast format!
