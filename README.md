@@ -22,7 +22,7 @@ To run the Ailurn locally, follow these steps:
    i. Python 3.x
    ii. PIP (Python package installer)
 
-3. Installation
+2. Installation
 
    i. Clone the repository:
 
@@ -30,27 +30,28 @@ To run the Ailurn locally, follow these steps:
        git clone https://github.com/rumbleFTW/ailurn.git
        cd ailurn
    ```
+
    Also create a .env file in ailurn/src/ and include GOOGLE_API_KEY=<YOUR_KEY_HERE>
 
-4. Create a virtual environment (optional but recommended):
+   ii. Create a virtual environment (optional but recommended):
 
    ```bash
    python -m venv venv
    source venv/bin/activate # On Windows: venv\Scripts\activate
    ```
 
-5. Install dependencies:
+   iii. Install dependencies:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-6. Run the application
+   iv. Run the application
 
    ```bash
    python app.py
    ```
 
-   Access the application at in your web browser.
+   v. Access the application at in your web browser.
 
    Follow the on-screen instructions to choose a research paper and customize the podcast settings.
